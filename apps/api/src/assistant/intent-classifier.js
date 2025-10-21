@@ -102,14 +102,16 @@ const INTENT_PATTERNS = {
       /good (morning|afternoon|evening)/i,
       /^help$/i,
       /nice to meet/i,
-      /are you (human|robot|ai|bot)/i
+      /are you (human|robot|ai|bot)/i,
+      /hello.*name/i,
+      /hi.*name/i
     ]
   },
   
   [INTENTS.VIOLATION]: {
     keywords: [
       'stupid', 'idiot', 'hate', 'suck', 'damn',
-      'hell', 'racist', 'sexist', 'discriminate'
+      'racist', 'sexist', 'discriminate'
     ],
     patterns: [
       /\b(fuck|shit|bitch|ass)\b/i,
@@ -117,7 +119,8 @@ const INTENT_PATTERNS = {
       /hate (you|this)/i,
       /kill yourself/i,
       /go to hell/i,
-      /(racist|sexist|nazi)/i
+      /(racist|sexist|nazi)/i,
+      /\bhell\b(?!o)/i
     ]
   },
   

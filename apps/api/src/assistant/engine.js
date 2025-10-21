@@ -408,13 +408,20 @@ router.post('/chat', async (req, res) => {
     } else if (intent.intent === INTENTS.PRODUCT_SEARCH) {
       // Extract search query
       const searchMatch = message.match(/(?:looking for|search|find|show me)\s+(.+)/i);
+      console.log('Product search match:', searchMatch);
       if (searchMatch) {
-        const result = await functionRegistry.execute('searchProducts', {
-          query: searchMatch[1],
-          limit: 5
-        });
-        functionsCalled.push('searchProducts');
-        functionResults.push(result);
+        console.log('Executing searchProducts with query:', searchMatch[1]);
+        try {
+          const result = await functionRegistry.execute('searchProducts', {
+            query: searchMatch[1],
+            limit: 5
+          });
+          console.log('Search result:', result);
+          functionsCalled.push('searchProducts');
+          functionResults.push(result);
+        } catch (error) {
+          console.error('Function execution error:', error);
+        }
       }
     }
     

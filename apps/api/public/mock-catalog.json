@@ -1,0 +1,182 @@
+[
+  {
+    "id": "PROD001",
+    "title": "Wireless Bluetooth Headphones",
+    "price": 79.99,
+    "image": "/logo.svg",
+    "tags": ["audio", "wireless", "electronics"],
+    "stockQty": 15,
+    "description": "High-quality wireless headphones with noise cancellation and 30-hour battery life."
+  },
+  {
+    "id": "PROD002",
+    "title": "Smart Fitness Watch",
+    "price": 199.99,
+    "image": "/logo.svg",
+    "tags": ["wearables", "fitness", "smart"],
+    "stockQty": 8,
+    "description": "Advanced fitness tracking with heart rate monitor, GPS, and water resistance."
+  },
+  {
+    "id": "PROD003",
+    "title": "Portable Bluetooth Speaker",
+    "price": 49.99,
+    "image": "/logo.svg",
+    "tags": ["audio", "portable", "wireless"],
+    "stockQty": 22,
+    "description": "Compact speaker with powerful sound and 12-hour battery life."
+  },
+  {
+    "id": "PROD004",
+    "title": "USB-C Charging Cable",
+    "price": 12.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "cables", "charging"],
+    "stockQty": 50,
+    "description": "Durable 6-foot USB-C cable with fast charging support."
+  },
+  {
+    "id": "PROD005",
+    "title": "Wireless Gaming Mouse",
+    "price": 89.99,
+    "image": "/logo.svg",
+    "tags": ["gaming", "wireless", "electronics"],
+    "stockQty": 12,
+    "description": "Precision gaming mouse with customizable RGB lighting and programmable buttons."
+  },
+  {
+    "id": "PROD006",
+    "title": "Mechanical Keyboard",
+    "price": 129.99,
+    "image": "/logo.svg",
+    "tags": ["gaming", "keyboard", "mechanical"],
+    "stockQty": 6,
+    "description": "RGB mechanical keyboard with Cherry MX switches and aluminum frame."
+  },
+  {
+    "id": "PROD007",
+    "title": "Phone Stand",
+    "price": 19.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "stand", "mobile"],
+    "stockQty": 35,
+    "description": "Adjustable phone stand with 360-degree rotation and stable base."
+  },
+  {
+    "id": "PROD008",
+    "title": "Laptop Sleeve",
+    "price": 34.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "laptop", "protection"],
+    "stockQty": 18,
+    "description": "Protective laptop sleeve with soft interior and water-resistant exterior."
+  },
+  {
+    "id": "PROD009",
+    "title": "Wireless Earbuds",
+    "price": 59.99,
+    "image": "/logo.svg",
+    "tags": ["audio", "wireless", "earbuds"],
+    "stockQty": 25,
+    "description": "True wireless earbuds with active noise cancellation and touch controls."
+  },
+  {
+    "id": "PROD010",
+    "title": "Power Bank",
+    "price": 39.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "power", "portable"],
+    "stockQty": 20,
+    "description": "High-capacity power bank with fast charging and multiple device support."
+  },
+  {
+    "id": "PROD011",
+    "title": "Tablet Case",
+    "price": 24.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "tablet", "protection"],
+    "stockQty": 14,
+    "description": "Protective tablet case with stand functionality and auto-wake feature."
+  },
+  {
+    "id": "PROD012",
+    "title": "HD Webcam",
+    "price": 79.99,
+    "image": "/logo.svg",
+    "tags": ["video", "webcam", "electronics"],
+    "stockQty": 9,
+    "description": "1080p HD webcam with built-in microphone and privacy shutter."
+  },
+  {
+    "id": "PROD013",
+    "title": "Desk Lamp",
+    "price": 45.99,
+    "image": "/logo.svg",
+    "tags": ["office", "lighting", "desk"],
+    "stockQty": 16,
+    "description": "LED desk lamp with adjustable brightness and color temperature."
+  },
+  {
+    "id": "PROD014",
+    "title": "Monitor Stand",
+    "price": 29.99,
+    "image": "/logo.svg",
+    "tags": ["office", "monitor", "stand"],
+    "stockQty": 11,
+    "description": "Ergonomic monitor stand with cable management and storage compartments."
+  },
+  {
+    "id": "PROD015",
+    "title": "Wireless Charger",
+    "price": 24.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "charging", "wireless"],
+    "stockQty": 28,
+    "description": "Fast wireless charging pad compatible with Qi-enabled devices."
+  },
+  {
+    "id": "PROD016",
+    "title": "Bluetooth Adapter",
+    "price": 15.99,
+    "image": "/logo.svg",
+    "tags": ["audio", "bluetooth", "adapter"],
+    "stockQty": 40,
+    "description": "USB Bluetooth adapter for adding wireless audio to any device."
+  },
+  {
+    "id": "PROD017",
+    "title": "Screen Protector",
+    "price": 9.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "protection", "screen"],
+    "stockQty": 60,
+    "description": "Tempered glass screen protector with easy installation kit."
+  },
+  {
+    "id": "PROD018",
+    "title": "Cable Organizer",
+    "price": 7.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "organization", "cables"],
+    "stockQty": 45,
+    "description": "Cable management organizer with multiple compartments and labels."
+  },
+  {
+    "id": "PROD019",
+    "title": "Laptop Cooling Pad",
+    "price": 32.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "cooling", "laptop"],
+    "stockQty": 13,
+    "description": "USB-powered laptop cooling pad with adjustable fan speeds."
+  },
+  {
+    "id": "PROD020",
+    "title": "USB Hub",
+    "price": 18.99,
+    "image": "/logo.svg",
+    "tags": ["accessories", "usb", "hub"],
+    "stockQty": 30,
+    "description": "4-port USB 3.0 hub with individual power switches and LED indicators."
+  }
+]
